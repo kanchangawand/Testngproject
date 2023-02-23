@@ -66,7 +66,7 @@ public class LoginPageObjects {
 	By errorMessage = By.xpath("//div[@id='error']");
 
 	public LoginPageObjects(WebDriver driver2) {
-
+	
 		this.driver = driver2;
 
 	}

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 7.336 s <<< FAILURE! - in TestSuite
+TestCases.verifyLogin.login[testuser1, secure123](1)  Time elapsed: 0.297 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "this.driver" is null
+	at TestCases.verifyLogin.login(verifyLogin.java:56)
+
+TestCases.verifyLogin.login[testuser2, secure456](2)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "this.driver" is null
+	at TestCases.verifyLogin.login(verifyLogin.java:56)
+
+TestCases.verifySignup.signup  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at TestCases.verifySignup.signup(verifySignup.java:58)
+
